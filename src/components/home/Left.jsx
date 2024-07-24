@@ -10,7 +10,7 @@ import { bannerImg } from "../../assets/index";
 
 const Left = () => {
   const [text] = useTypewriter({
-    words: ["Web Developer", "Back Developer","Full Stack Developer", "UI Designer"],
+    words: ["Web Developer", "Backend Developer","MERN Stack Developer","Reactjs Developer"],
     loop: true,
     typeSpeed: 30,
     deleteSpeed: 20,
@@ -40,20 +40,20 @@ const Left = () => {
             <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
               <FaLinkedin />
             </span>
-            <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
+            {/* <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
               <SiYoutubemusic />
-            </span>
+            </span> */}
             <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
               <BsFacebook />
             </span>
             <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
               <FiInstagram />
             </span>
-            <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
+            {/* <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
               <AiFillTwitterCircle />
-            </span>
-            <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
-              <FiMail />
+            </span> */}
+            <span className="hover:text-designColor duration-300 cursor-pointer text-xl" >
+              <a href="mailto:praveenkumar.palani7@gmail.com">  <FiMail   /></a>
             </span>
           </div>
         </div>

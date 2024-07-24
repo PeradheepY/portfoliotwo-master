@@ -23,11 +23,11 @@ const MyServices = () => {
         title="Mobile Application"
         subTitle="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, provident. Accusamus at dolorem expedita dicta."
       />
-      <ServicesCard
+      {/* <ServicesCard
         icons={<FaAppStoreIos />}
         title="SEO"
         subTitle="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, provident. Accusamus at dolorem expedita dicta."
-      />
+      /> */}
     </div>
   );
 };
