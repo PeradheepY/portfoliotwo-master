@@ -5,8 +5,8 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { SiYoutubemusic } from "react-icons/si";
 import { FiInstagram, FiMail, FiSend } from "react-icons/fi";
-import CV from "../../assets/Noor_Mohammad_resume.pdf";
-import { bannerImg } from "../../assets/index";
+import CV from "../../assets/PraveenkumarP.pdf";
+import { bannerimg1 } from "../../assets/index";
 
 const Left = () => {
   const [text] = useTypewriter({
@@ -21,7 +21,7 @@ const Left = () => {
       <div className="w-full h-3/5">
         <img
           className="w-full h-full object-cover rounded-2xl"
-          src={bannerImg}
+          src={bannerimg1}
           loading="priority"
           alt="bannerImage"
         />
@@ -35,19 +35,19 @@ const Left = () => {
           </p>
           <div className="flex justify-center gap-2 mt-2">
             <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
-              <FaGithub />
+              <a href="https://github.com/praveenkumar710/"><FaGithub /></a>
             </span>
             <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
-              <FaLinkedin />
+              <a href="https://www.linkedin.com/in/praveenkumar710"><FaLinkedin /></a>
             </span>
             {/* <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
               <SiYoutubemusic />
             </span> */}
             <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
-              <BsFacebook />
+             <a href="https://www.facebook.com/praveen.missie?mibextid=ZbWKwL"> <BsFacebook /></a>
             </span>
             <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
-              <FiInstagram />
+              <a href="https://www.instagram.com/praveenmessi_pk10?igsh=NGo4cXVxZmR2OGU2"><FiInstagram /></a>
             </span>
             {/* <span className="hover:text-designColor duration-300 cursor-pointer text-xl">
               <AiFillTwitterCircle />

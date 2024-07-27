@@ -11,21 +11,21 @@ const MyServices = () => {
       <ServicesCard
         icons={<BiCodeAlt />}
         title="Web Development"
-        subTitle="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, provident. Accusamus at dolorem expedita dicta."
+        subTitle=" Specialize in creating high-performance, scalable, and visually appealing websites tailored to your unique needs. Our expertise covers the entire development lifecycle, ensuring a seamless and engaging user experience."
       />
-      <ServicesCard
+      {/* <ServicesCard
         icons={<SiAntdesign />}
         title="Web Design"
         subTitle="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, provident. Accusamus at dolorem expedita dicta."
-      />
+      /> */}
       <ServicesCard
         icons={<AiTwotoneAppstore />}
-        title="Mobile Application"
-        subTitle="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, provident. Accusamus at dolorem expedita dicta."
+        title="Backend Deveploment"
+        subTitle=" Specialize in delivering robust backend development services that form the backbone of your digital solutions. Our expertise ensures your applications are secure, scalable, and optimized for high performance, capable of managing complex operations and large datasets seamlessly."
       />
       {/* <ServicesCard
         icons={<FaAppStoreIos />}
-        title="SEO"
+        title="Bankend Deveploment"
         subTitle="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, provident. Accusamus at dolorem expedita dicta."
       /> */}
     </div>
