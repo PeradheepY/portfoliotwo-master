@@ -68,9 +68,11 @@ const Left = () => {
               Download CV <BsCloudLightningFill />
             </button>
           </a>
+         
           <button className="w-1/2 border-t-[1px] border-t-zinc-800 text-sm tracking-wide uppercase flex justify-center items-center gap-2 hover:text-designColor duration-300">
-            Contact me <FiSend />
+          <a href="mailto:praveenkumar.palani7@gamil.com">Contact me <FiSend /></a>
           </button>
+          
         </div>
       </div>
     </div>

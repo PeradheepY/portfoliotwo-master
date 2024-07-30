@@ -18,11 +18,13 @@ const Projects = () => {
       <Title title="Recent" subTitle="Projects" />
       <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-6 lgl:gap-10">
         <div className="px-6">
+          <a href="https://guess-the-number-sable-sigma.vercel.app/">
           <ProjectsCard
             title="Blog Website"
             category="Website"
             image={workImgThree}
           />
+          </a>
           <ProjectsCard
             title="Business Card Design"
             category="Design"

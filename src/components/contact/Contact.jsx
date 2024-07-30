@@ -51,7 +51,7 @@ const Contact = () => {
       setErrMessage(true);
     }
     if (clientName && email && EmailValidation(email) && messages) {
-      axios.post("https://getform.io/f/e18ee560-5133-4cfe-9a48-eddb6f012a9f", {
+      axios.post("https://getform.io/f/akkgpmda", {
         name: clientName,
         email: email,
         message: messages,
@@ -105,7 +105,7 @@ const Contact = () => {
         ) : (
           <form
             id="form"
-            action="https://getform.io/f/e18ee560-5133-4cfe-9a48-eddb6f012a9f"
+            action="https://getform.io/f/akkgpmda"
             method="POST"
             className="p-6 flex flex-col gap-6"
           >
